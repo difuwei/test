@@ -13,8 +13,8 @@ func main(){
     e := mm[5]
     fmt.Println(e)
 
-    var m string = "difuwe"
-    fmt.Println(m)
+    // var m string = "difuwe"
+    // fmt.Println(m)
 
     for i := 0; i < 5; i++ {
         fmt.Println(i);
