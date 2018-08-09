@@ -24,6 +24,19 @@ func main(){
 
     p :=Person{"jodan",20,"nan"}
     fmt.Println(p.Name); 
+
+    sum := 0
+    for i:=0;i<10;i++{
+        sum +=i;
+    }
+
+
+    sum1 := 1
+    for sum1 < 100{
+        sum1 += sum1
+    }
+    fmt.Println(sum1)
+
 }
 
     type Person struct {
